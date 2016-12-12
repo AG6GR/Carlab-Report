@@ -4,6 +4,8 @@
 
 ELE 302 (Building Real Systems) is the junior level capstone lab class in the Electrical Engineering curriculum. For the independent project portion of this class, we created Carvis the autonomous guard robot. Carvis continuously patrols a route marked out with black tape on the floor. If it hears a large sound like a clap or footstep, the robot stops and attempts to interrogate the source of the sound by playing sound effects and shining a bright light. If the intruder displays the proper identification, the robot returns to patrolling the track. Otherwise, it sounds a loud alarm with its lights and speakers. The primary technical challenge of the project was in the techniques for sound localization via time difference of arrival in order to accurately determine the direction of origin of the sound, and thus turn its LED and camera in the proper direction.
 
+As this project was completed as part of the ELE 302 course, we are required to keep source code and some details of the drive system private. Feel free to contact the authors [Sunny He](https://github.com/AG6GR) and [Vincent Po](https://github.com/vbpo) for more details.
+
 ## Sound Localization
 <img src=/IndependentProject/Report/SoundDiagram.png width="480">
 
